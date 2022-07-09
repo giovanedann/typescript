@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-inferrable-types */
-/* eslint-disable no-unused-vars */
-
 /*
   There are two forms of typing arrays on typescript: using generics and array types
 */

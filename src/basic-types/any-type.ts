@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-inferrable-types */
-/* eslint-disable no-unused-vars */
-
 /*
   The any type allows you to store a value of any type. It instructs the compiler to skip
   type checking. You usually use any type to store a value that you don’t actually know

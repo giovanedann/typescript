@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-inferrable-types */
-/* eslint-disable no-unused-vars */
-
 const objectA = {
   a: 'A value',
   b: 'B value',

@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-inferrable-types */
-/* eslint-disable no-unused-vars */
-
 /*
   tuples are not a native type for JavaScript, a tuple is an array with a specific length
   and specific types, and each value must have an unique type
