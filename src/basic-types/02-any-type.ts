@@ -6,12 +6,8 @@
   using the any type.
 */
 
-function returnAnything(anything) {
-  return anything;
-}
-
 /*
-  the function returnAnything infers the type of the anything argument of being any by
+  when a function argument is not explicit, TypeScript infers the type of the anything argument of being any by
   default, since it's not explicit the type of the argument, but it's possible to set the
   type of something as any.
  */
