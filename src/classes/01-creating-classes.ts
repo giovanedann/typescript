@@ -14,8 +14,11 @@
 */
 
 export class Employee {
-  // Short syntax for doing the same as lines 7~14
-  constructor(public readonly firstName: string, public readonly lastName: string) {}
+  // Short syntax for doing the same as lines 22~29
+  constructor(
+    public readonly firstName: string,
+    public readonly lastName: string
+  ) {}
 }
 
 export class Company {
