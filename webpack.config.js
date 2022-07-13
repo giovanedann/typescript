@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/basic-types/18-form-validation.ts',
+  entry: './src/frontend-imports',
   module: {
     rules: [
       {
