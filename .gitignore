@@ -144,3 +144,4 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node
 
 src/basic-types/template.ts
+src/05\ -\ Decorators/07-all-decorators.ts
