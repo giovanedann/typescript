@@ -17,6 +17,6 @@ const todo1 = {
   description: "clear clutter",
 };
 
-const todo2 = updateTodo(todo1, {
+export const todo2 = updateTodo(todo1, {
   description: "throw out trash",
 });
