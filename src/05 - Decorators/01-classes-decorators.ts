@@ -11,6 +11,8 @@
   the superclass, before returning the superclass itself.
 */
 
+type AnimalConstructor = new (...args: any[]) => any;
+
 @decorator
 export class Animal {
   constructor(
@@ -19,7 +21,7 @@ export class Animal {
   ) {}
 }
 
-function decorator<TClass extends new (...args: any[]) => any>(target: TClass): TClass {
+function decorator<TClass extends AnimalConstructor>(target: TClass): TClass {
   return class extends target {
     color: string;
     name: string;
