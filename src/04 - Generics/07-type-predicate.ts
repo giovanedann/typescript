@@ -1,5 +1,5 @@
 /*
-  Type predicates are used when you ensure that the type of the return of a function.
+  Type predicates are used when you have sure about the type of a function return.
 
   For example, the function isNumber, every time the assertion of type guard is true, the return
   will be a number.
