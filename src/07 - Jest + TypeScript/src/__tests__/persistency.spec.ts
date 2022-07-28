@@ -3,7 +3,7 @@ import { Persistency } from '../services/persistency';
 const createSut = () => new Persistency();
 
 describe('Test cases for the Persistency class', () => {
-  afterEach(jest.clearAllMocks)
+  afterEach(jest.clearAllMocks);
 
   it('saveOrder method should call console.log (mock with jest.fn)', () => {
     console.log = jest.fn();
@@ -24,7 +24,7 @@ describe('Test cases for the Persistency class', () => {
     expect(logSpy).toHaveBeenCalled();
     expect(logSpy).toHaveBeenCalledTimes(1);
     expect(logSpy).toHaveBeenCalledWith('Order saved successfully!');
-  })
+  });
 
   it('saveOrder method logs the correct message on the console', () => {
     const logSpy = jest.spyOn(console, 'log');
@@ -33,5 +33,5 @@ describe('Test cases for the Persistency class', () => {
     sut.saveOrder();
 
     expect(logSpy).toHaveBeenCalledWith('Order saved successfully!');
-  })
-})
+  });
+});
