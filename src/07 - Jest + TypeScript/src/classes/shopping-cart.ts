@@ -11,7 +11,7 @@ export class ShoppingCart implements ShoppingCartInterface {
     this._items.push(item);
   }
 
-  removeItem(index: number): void {
+  removeItem(index: number = 0): void {
     this._items.splice(index, 1);
   }
 
