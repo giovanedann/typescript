@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $fontfamily;
+  background: $mainblue;
+  transition: background-color 0.3s ease-in-out;
+  line-height: 1.5;
+
+  button, input {
+    font-family: Nunito, sans-serif;
+  }
+}
+
+.pomodoro-container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.working {
+  background: $mainred;
+}
