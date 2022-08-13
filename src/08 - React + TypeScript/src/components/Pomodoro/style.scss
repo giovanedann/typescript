@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 
 .pomodoro {
-  height: 20rem;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -33,5 +33,10 @@
     align-items: flex-start;
     justify-content: center;
     margin-left: 2rem;
+
+    p {
+      font-size: 16px;
+      font-weight: 600;
+    }
   }
 }
