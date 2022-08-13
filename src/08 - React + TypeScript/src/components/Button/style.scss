@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+button {
+  padding: 4px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: 700;
+  color: $white;
+  cursor: pointer;
+  background: $mainblue;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.danger {
+    color: $mainred;
+  }
+}
