@@ -25,4 +25,13 @@
     align-items: center;
     justify-content: space-evenly;
   }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2rem;
+  }
 }

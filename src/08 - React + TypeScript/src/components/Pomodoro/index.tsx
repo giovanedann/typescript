@@ -17,6 +17,12 @@ const Pomodoro: React.FC = () => {
         <Button title="Stop" onClick={() => alert('eae')} />
         <Button title="Reset" onClick={() => alert('eae')} />
       </div>
+      <div className="details">
+        <p>testetestetestetesteteste</p>
+        <p>testetestetestetesteteste</p>
+        <p>testetestetestetesteteste</p>
+        <p>testetestetestetesteteste</p>
+      </div>
     </div>
   );
 };
