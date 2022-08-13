@@ -8,14 +8,17 @@ interface TimerProps {
   shortRestTime: number;
   longRestTime: number;
   cycles: number;
+  isCounting: boolean;
 }
 
-const Timer: React.FC<TimerProps> = ({ defaultTime }) => {
+const Timer: React.FC<TimerProps> = ({ defaultTime, isCounting }) => {
   const [time, setTime] = useState<number>(defaultTime);
 
   useInterval(() => {
-    setTime((prevState) => prevState - 1);
-  }, 1000);
+      setTime((prevState) => prevState - 1);
+    },
+    isCounting ? 1000 : null,
+  );
 
   return (
     <div className="timer-container">
